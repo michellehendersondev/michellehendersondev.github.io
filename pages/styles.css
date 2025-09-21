@@ -3,3 +3,11 @@
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
   max-width: 100px; /* Sets a maximum size */
 }
+
+.container { display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  min-height: 100vh; /* Make sure the container takes up the full viewport height */
+  flex-direction: column; /* Stacks children vertically */
+  text-align: center; /* Centers text within each child element */
+           }
