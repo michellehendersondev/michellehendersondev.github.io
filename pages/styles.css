@@ -1,4 +1,5 @@
 .giphy {
+  width: 50%;
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
   max-width: 100px; /* Sets a maximum size */
 }
