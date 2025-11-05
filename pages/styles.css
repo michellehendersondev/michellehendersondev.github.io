@@ -4,13 +4,7 @@
   max-width: 100px; /* Sets a maximum size */
 }
 
-.container { 
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  min-height: 100vh; /* Make sure the container takes up the full viewport height */
-  text-align: center; /* Centers text within each child element */
-  }
+
 
 
 .centered-div {
