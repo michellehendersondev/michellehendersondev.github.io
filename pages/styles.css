@@ -9,7 +9,6 @@
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   min-height: 100vh; /* Make sure the container takes up the full viewport height */
-  flex-direction: column; /* Stacks children vertically */
   text-align: center; /* Centers text within each child element */
   }
 
