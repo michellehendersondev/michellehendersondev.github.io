@@ -4,11 +4,15 @@
   max-width: 100px; /* Sets a maximum size */
 }
 
-
-
-
 .centered-div {
   width: 50%;
   margin: 0 auto;
 }
 
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+
+
+}
