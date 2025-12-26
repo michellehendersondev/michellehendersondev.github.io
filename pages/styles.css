@@ -46,3 +46,7 @@ ul li a {
 ul li a:hover{
 background-color:black;
 }
+
+p {
+  text-align: center;
+  }
