@@ -52,3 +52,7 @@ background-color:black;
 .centerdiv {
   text-align: center;
   }
+
+input {
+  width:100%
+}
