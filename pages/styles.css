@@ -61,3 +61,15 @@ input {
   display:flex;
   flex-direction:column;
 }
+
+/*bug prevention*/
+/*prevents images from breaking the layout*/
+img {
+  max-width: 100%;
+  height:auto;
+}
+
+/*prevent boxes from pushing off the screen*/
+* {
+  box-sizing:border-box;
+}
