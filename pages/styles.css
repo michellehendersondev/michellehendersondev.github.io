@@ -56,3 +56,8 @@ background-color:black;
 input {
   width:50%
 }
+
+.contact-form {
+  display:flex;
+  flex-direction:column;
+}
