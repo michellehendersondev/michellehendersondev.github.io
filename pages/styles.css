@@ -88,3 +88,11 @@ button[type="submit"]{
 textarea{
   min-height:150px;
 }
+
+button[type="submit"]{
+  appearance:none;
+  background-color:#C5D3E8;
+  cursor:pointer;
+  border:none;
+  font-family:inherit;
+}
