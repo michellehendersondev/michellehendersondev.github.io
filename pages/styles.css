@@ -100,5 +100,7 @@ button[type="submit"]{
 .resume-container{
 max-width:800px;
 margin:0 auto;
-
+width: 100%; 
+height: auto; 
+image-rendering:-webkit-optimize-contrast;
 }
