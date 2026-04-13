@@ -106,7 +106,7 @@ height: auto;
 image-rendering:-webkit-optimize-contrast;
 }
 
-.div {
+.container {
   display:flex;
   justify-content:center;
   align-items:center;
