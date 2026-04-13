@@ -110,8 +110,4 @@ height: auto;
 image-rendering:-webkit-optimize-contrast;
 }
 
-.centerdiv {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
+
