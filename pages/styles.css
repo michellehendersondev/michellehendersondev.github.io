@@ -106,10 +106,4 @@ height: auto;
 image-rendering:-webkit-optimize-contrast;
 }
 
-.container {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-}
 
