@@ -106,6 +106,10 @@ height: auto;
 image-rendering:-webkit-optimize-contrast;
 }
 
-.div {text-align:center;
+.div {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
 }
 
