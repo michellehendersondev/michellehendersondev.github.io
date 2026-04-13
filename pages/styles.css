@@ -54,10 +54,6 @@ ul li a:hover{
 background-color:#C5D3E8;
 }
 
-.centerdiv {
-  text-align: center;
-  }
-
 .contact-form {
   display:flex;
   flex-direction:column;
