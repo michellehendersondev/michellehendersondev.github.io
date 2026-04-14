@@ -138,5 +138,5 @@ width:100%;
                           }
 
 .column-right {
-  align-items:right;
+  justify-content:flex-end;
 }
