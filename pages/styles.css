@@ -108,8 +108,16 @@ image-rendering:-webkit-optimize-contrast;
 
 .flex-container {
 display:flex;
+flex-wrap: wrap;
 justify-content:center;
 align-items:center;
+padding:10px;
+}
+
+.column-left, .column-right {
+flex:1; /*both columns take up equal space*/
+min-width: 300px;
+padding: 10px;
 }
 
 .child {
@@ -119,5 +127,12 @@ align-items:center;
   text-align:left;
   padding:10px;
 }
-  
 
+@media (max-width: 768px) {  */when the screen is 768px wide or less-tablet size and smaller*/
+  .flex-container{
+    flex-direction:column;
+  }
+.column-left, .column-right{
+width:100%;
+}
+                          }
