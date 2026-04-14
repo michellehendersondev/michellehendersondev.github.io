@@ -138,6 +138,5 @@ width:100%;
                           }
 
 .column-right {
-  justify-content:flex-end;
-  align-items:flex-end;
+  padding-left:50px;
 }
