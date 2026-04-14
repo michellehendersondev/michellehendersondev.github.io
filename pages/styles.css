@@ -106,4 +106,10 @@ height: auto;
 image-rendering:-webkit-optimize-contrast;
 }
 
+.flex-container {
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
 
