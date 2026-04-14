@@ -116,12 +116,15 @@ margin: 0 auto;
 padding:10px;
 }
 
-.column-left, .column-right {
-flex:1; /*both columns take up equal space*/
-min-width: 300px;
-padding: 10px;
+.column-left {
+flex: 0 1 auto;
+max-width:600px;
 }
 
+.column-right {
+flex: 0 1 auto;
+
+}
 .child {
   display:flex;
   flex-direction:column; /*stack items vertically */
