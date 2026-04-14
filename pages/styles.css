@@ -116,7 +116,7 @@ align-items:center;
   display:flex;
   flex-direction:column; /*stack items vertically */
   align-items:center;
-  text-align:center;
+  text-align:left;
   padding:10px;
 }
   
