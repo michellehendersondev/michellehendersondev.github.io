@@ -131,6 +131,7 @@ flex: 0 1 auto;
   text-align:left;
   padding:10px;
 flex-wrap:nowrap;/*change*/
+width:100%;
 }
 
 @media (max-width: 768px) {  */when the screen is 768px wide or less-tablet size and smaller*/
