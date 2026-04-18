@@ -108,7 +108,7 @@ image-rendering:-webkit-optimize-contrast;
 
 .flex-container {
 display:flex;
-flex-wrap: nowrap; /* Change!: Prevents icons from dropping to new line */
+flex-wrap: wrap;
 justify-content:space-between;
 align-items:flex-start;
 max-width:1200px;
@@ -130,6 +130,7 @@ flex: 0 1 auto;
   align-items:center;
   text-align:left;
   padding:10px;
+flex-wrap:nowrap;/*change*/
 }
 
 @media (max-width: 768px) {  */when the screen is 768px wide or less-tablet size and smaller*/
