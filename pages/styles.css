@@ -117,7 +117,7 @@ margin: 0 auto;
 
 .column-left {
 flex: 0 1 auto;
-max-width:600px;
+max-width:100%; /*test change from 600px*/
 }
 
 .column-right {
