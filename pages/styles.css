@@ -108,7 +108,7 @@ image-rendering:-webkit-optimize-contrast;
 
 .flex-container {
 display:flex;
-flex-wrap: wrap;
+flex-wrap: nowrap; /* Change!: Prevents icons from dropping to new line */
 justify-content:space-between;
 align-items:flex-start;
 max-width:1200px;
