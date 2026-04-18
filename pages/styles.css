@@ -132,6 +132,7 @@ flex: 0 1 auto;
   padding:10px;
 flex-wrap:nowrap;/*change*/
 width:100%;
+justify-content:center;
 }
 
 @media (max-width: 768px) {  */when the screen is 768px wide or less-tablet size and smaller*/
