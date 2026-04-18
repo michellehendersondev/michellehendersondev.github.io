@@ -119,6 +119,7 @@ margin: 0 auto;
 flex: 0 1 auto;
 justify-content:center;
 max-width:100%; /*test change from 600px*/
+align-items:center;
 }
 
 .column-right {
