@@ -130,7 +130,7 @@ flex: 0 1 auto;
   display:flex;
   flex-direction:column; /*stack items vertically */
   align-items:center;
-  text-align:left;
+  /*text-align:left;*/
   padding:10px;
 flex-wrap:nowrap;/*change*/
 width:100%;
