@@ -19,8 +19,11 @@ font-family:"Calibri", sans-serif;
   }
 
 .giphy {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   width: 50%;
-  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  max-height: auto; /* Automatically adjust the height to maintain aspect ratio */
   max-width: 100px; /* Sets a maximum size */
 }
 
