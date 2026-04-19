@@ -67,6 +67,7 @@ background-color:#C5D3E8;
 img {
   max-width: 100%;
   height:auto;
+  padding-top:40px;
 }
 
 /*prevent boxes from pushing off the screen*/
