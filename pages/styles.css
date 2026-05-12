@@ -18,15 +18,6 @@ font-family:"Calibri", sans-serif;
     font-family:sans-serif;
   }
 
-.giphy {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width: 50%;
-  max-height: auto; /* Automatically adjust the height to maintain aspect ratio */
-  max-width: 100px; /* Sets a maximum size */
-}
-
 .centered-div {
   width: 50%;
   margin: 0 auto;
@@ -68,7 +59,7 @@ color:#98baed;
 img {
   max-width: 100%;
   height:auto;
-  padding-top:40px;
+  padding-top:10px;
 }
 
 /*prevent boxes from pushing off the screen*/
