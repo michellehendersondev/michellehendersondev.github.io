@@ -150,6 +150,11 @@ width:100%;
 }
                           }
 
+.submit-button{
+transition:transform 0.2 ease-in-out;
+}
+
+
 .submit-button:hover {
-  background-color: red;
+  transform:scale(1.10);
 }
