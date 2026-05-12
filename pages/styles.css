@@ -46,11 +46,12 @@ ul li a {
   color:white;
   padding: 14px 16px;
   text-decoration:none;
+  transition:transform 0.1s ease-in-out;
 }
 
 ul li a:hover{
 background-color:#C5D3E8;
-color:#98baed;
+transform:scale(1.05);
 }
 
 .contact-form {
