@@ -39,6 +39,7 @@ ul {
   background-color:#C5D3E8;
   display:flex;
   justify-content:center;
+  max-width:100%; /*see of this shrinks nav bar*/
 }
 
 ul li a {
