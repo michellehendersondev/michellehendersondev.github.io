@@ -32,7 +32,7 @@ p {
   justify-content:flex-start;  
 }
 
-nav {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -54,6 +54,46 @@ ul li a:hover{
 background-color:#C5D3E8;
 transform:scale(1.05);
 }
+
+.hamburger {
+display:none; /*hide hamburger menu on desktop*/
+cursor:pointer;
+background:none;
+border:none;
+}
+
+.bar {
+display:block;
+width:25px;
+height:3px;
+margin:5px auto;
+background-color:white;
+
+}
+
+/*Mobile Styles*/
+@media (max-width: 768px){
+.hamburger {
+display:block;
+}
+
+.nav-menu {
+position: fixed;
+left: -100%;
+top:70px;
+flex-direction:column;
+background-color:white;
+width:100%;
+text-align:center;
+transition: 0.3s;
+}
+
+.nav-menu-active{
+left:0; /*slide menu in when active*/
+}
+}
+
+
 
 .contact-form {
   display:flex;
