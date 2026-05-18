@@ -54,7 +54,7 @@ ul li a:hover{
 background-color:#C5D3E8;
 transform:scale(1.05);
 }
-
+/*
 .hamburger {
 display:none; /*hide hamburger menu on desktop*/
 cursor:pointer;
@@ -93,7 +93,7 @@ left:0; /*slide menu in when active*/
 }
 }
 
-
+*/
 
 .contact-form {
   display:flex;
