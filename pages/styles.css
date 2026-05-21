@@ -54,6 +54,11 @@ ul li a:hover{
 background-color:#C5D3E8;
 transform:scale(1.05);
 }
+
+footer { background-color:#C5D3E8;
+color:white;
+}
+
 /*
 .hamburger {
 display:none; /*hide hamburger menu on desktop*/
