@@ -1,4 +1,4 @@
-body {
+/*body {
 background-color: white;
 color:black;
 font-family:"Calibri", sans-serif;
@@ -196,4 +196,113 @@ transition:transform 0.1s ease-in-out;
 
 .submit-button:hover {
   transform:scale(1.05);
+}*/
+
+/* --- Global & Reset Basics --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #fcfcfc;
+  padding: 2rem 5%; /* Gives the whole page nice breathing room */
+}
+
+/* --- Navigation --- */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end; /* Pushes menu to the right */
+  margin-bottom: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  text-transform: lowercase; /* Matches your current clean style */
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #C5D3E8; /* Uses your nice accent color on hover */
+}
+
+/* --- Hero Header --- */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+/* --- The Flexbox Split Layout --- */
+.flex-container {
+  display: flex;
+  flex-direction: column; /* Default to stacked for mobile first */
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.column-left {
+  flex: 1; /* Takes up equal space */
+}
+
+.column-left p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.column-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styled Image */
+.column-right img {
+  width: 100%;
+  max-width: 280px; /* Controls the maximum size */
+  height: auto;
+  border-radius: 12px; /* Gives it a subtle, modern rounded edge */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft professional shadow */
+}
+
+/* --- Social Links & Footer --- */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-links a {
+  transition: transform 0.2s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-3px); /* Subtle lift effect when hovered */
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* --- Responsive Media Query --- */
+/* When the screen is wider than 768px (tablets/desktops), snap side-by-side */
+@media (min-width: 768px) {
+  .flex-container {
+    flex-direction: row; 
+    align-items: flex-start;
+    gap: 4rem;
+  }
+}
+
