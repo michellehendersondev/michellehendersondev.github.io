@@ -1,204 +1,4 @@
-/*body {
-background-color: white;
-color:black;
-font-family:"Calibri", sans-serif;
-}
-
-  h1{
-    background-color:#C5D3E8;
-    text-align: center;
-    color:white;
-    font-family:sans-serif;
-  }
-
-p {
-  padding-top:10px;
-}
-
-  h2{
-    color:white;
-    background-color: #C5D3E8;
-    text-align: center;
-    font-family:sans-serif;
-  }
-
-.centered-div {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.leftdiv {
-  display:flex;
-  justify-content:flex-start;  
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color:#C5D3E8;
-  display:flex;
-  justify-content:center;
-  max-width:100%; /*see of this shrinks nav bar*/
-}
-
-ul li a {
-  display:block;
-  color:white;
-  padding: 14px 16px;
-  text-decoration:none;
-  transition:transform 0.1s ease-in-out;
-}
-
-ul li a:hover{
-background-color:#C5D3E8;
-transform:scale(1.05);
-}
-
-/*
-.hamburger {
-display:none; /*hide hamburger menu on desktop*/
-cursor:pointer;
-background:none;
-border:none;
-}
-
-.bar {
-display:block;
-width:25px;
-height:3px;
-margin:5px auto;
-background-color:white;
-
-}
-
-/*Mobile Styles*/
-@media (max-width: 768px){
-.hamburger {
-display:block;
-}
-
-.nav-menu {
-position: fixed;
-left: -100%;
-top:70px;
-flex-direction:column;
-background-color:white;
-width:100%;
-text-align:center;
-transition: 0.3s;
-}
-
-.nav-menu-active{
-left:0; /*slide menu in when active*/
-}
-}
-
-*/
-
-.contact-form {
-  display:flex;
-  flex-direction:column;
-}
-
-/*bug prevention*/
-/*prevents images from breaking the layout*/
-img {
-  max-width: 100%;
-  height:auto;
-  padding-top:10px;
-}
-
-/*prevent boxes from pushing off the screen*/
-* {
-  box-sizing:border-box;
-}
-
-input[type="text"], 
-input[type="email"], 
-textarea,
-button[type="submit"]{
-    border: 4px solid #C5D3E8;
-    border-radius:10px;
-    padding: 10px;
-    margin-bottom:10px;
-    width:100%;
-    max-width:600px;
-    font-size:16px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-textarea{
-  min-height:150px;
-}
-
-button[type="submit"]{
-  appearance:none;
-  background-color:#C5D3E8;
-  cursor:pointer;
-  border:none;
-  font-family:inherit;
-}
-
-.resume-container{
-max-width:800px;
-margin:0 auto;
-width: 100%; 
-height: auto; 
-image-rendering:-webkit-optimize-contrast;
-}
-
-.flex-container {
-display:flex;
-flex-wrap: wrap;
-justify-content:center;
-align-items:flex-start;
-gap: 20px;
-max-width:1200px;
-margin: 0 auto;
-}
-
-.column-left {
-flex: 1;
-min-width:300px;
-max-width:100%; /*test change from 600px*/
-}
-
-.column-right {
-flex: 0 0 250px;/*stays 250px wide*/
-}
-
-.child {
-  display:flex;
-  flex-direction:column; /*stack items vertically */
-  align-items:center;
-  /*text-align:left;*/
-  padding:10px;
-/*flex-wrap:nowrap;/*change*/
-width:100%;
-justify-content:center;
-}
-
-@media (max-width: 768px) {  */when the screen is 768px wide or less-tablet size and smaller*/
-  .flex-container{
-    flex-direction:column;
-  }
-.column-left, .column-right{
-width:100%;
-}
-                          }
-
-.submit-button{
-transition:transform 0.1s ease-in-out;
-}
-
-
-.submit-button:hover {
-  transform:scale(1.05);
-}*/
-
-/* --- Global & Reset Basics --- */
+/* --- 1. GLOBAL RESET & BASE STYLES --- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -206,75 +6,104 @@ transition:transform 0.1s ease-in-out;
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: "Calibri", 'Inter', sans-serif;
   line-height: 1.6;
   color: #333333;
   background-color: #fcfcfc;
-  padding: 2rem 5%; /* Gives the whole page nice breathing room */
+  padding: 2rem 5%; /* Gives the whole page breathing room */
 }
 
-/* --- Navigation --- */
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  justify-content: flex-end; /* Pushes menu to the right */
-  margin-bottom: 3rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: #555;
-  font-weight: 500;
-  text-transform: lowercase; /* Matches your current clean style */
-  transition: color 0.2s ease;
-}
-
-nav a:hover {
-  color: #C5D3E8; /* Uses your nice accent color on hover */
-}
-
-/* --- Hero Header --- */
+/* --- 2. HEADERS --- */
 h1 {
-  font-size: 2.5rem;
+  background-color: #C5D3E8;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  padding: 15px;
   margin-bottom: 2rem;
-  color: #222;
+  font-size: 2.3rem;
 }
 
-/* --- The Flexbox Split Layout --- */
+h2 {
+  color: white;
+  background-color: #C5D3E8;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+p {
+  padding-top: 10px;
+  font-size: 1.1rem;
+}
+
+/* --- 3. ORIGINAL NAVIGATION BAR --- */
+ul {
+  list-style-type: none;
+  background-color: #C5D3E8;
+  display: flex;
+  justify-content: center;
+  max-width: 100%; 
+  margin-bottom: 2rem;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.1s ease-in-out;
+}
+
+ul li a:hover {
+  background-color: #b0c2de; /* Slightly deeper tint for the hover effect */
+  transform: scale(1.05);
+}
+
+/* --- 4. THE FLEXBOX SPLIT LAYOUT (Text & Selfie) --- */
 .flex-container {
   display: flex;
-  flex-direction: column; /* Default to stacked for mobile first */
-  gap: 3rem;
+  flex-direction: column; /* Default to stacked for mobile screens */
+  gap: 2.5rem;
   align-items: center;
-  margin-bottom: 4rem;
+  max-width: 1100px;
+  margin: 0 auto 3rem auto;
 }
 
 .column-left {
-  flex: 1; /* Takes up equal space */
+  flex: 1;
+  min-width: 300px;
 }
 
 .column-left p {
   margin-bottom: 1.5rem;
-  font-size: 1.1rem;
 }
 
 .column-right {
-  flex: 1;
+  flex: 0 0 250px; /* Keeps the selfie container exactly 250px wide */
   display: flex;
   justify-content: center;
 }
 
-/* Styled Image */
-.column-right img {
-  width: 100%;
-  max-width: 280px; /* Controls the maximum size */
+/* Responsive Image Handling */
+img {
+  max-width: 100%;
   height: auto;
-  border-radius: 12px; /* Gives it a subtle, modern rounded edge */
+  border-radius: 12px; /* Gives your picture a modern rounded edge */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft professional shadow */
 }
 
-/* --- Social Links & Footer --- */
+/* --- 5. SOCIAL LINKS & FOOTER --- */
+.child {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -287,7 +116,7 @@ h1 {
 }
 
 .social-links a:hover {
-  transform: translateY(-3px); /* Subtle lift effect when hovered */
+  transform: translateY(-3px); /* Subtle modern lift effect */
 }
 
 footer {
@@ -296,8 +125,57 @@ footer {
   font-size: 0.9rem;
 }
 
-/* --- Responsive Media Query --- */
-/* When the screen is wider than 768px (tablets/desktops), snap side-by-side */
+/* --- 6. FORMS & CONTACT PAGE STYLES --- */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea,
+button[type="submit"] {
+  border: 4px solid #C5D3E8;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 600px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+button[type="submit"] {
+  appearance: none;
+  background-color: #C5D3E8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  transition: transform 0.1s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  transform: scale(1.05);
+}
+
+/* --- 7. RESUME PAGE CONTAINER --- */
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%; 
+  height: auto; 
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* --- 8. RESPONSIVE MEDIA QUERY --- */
+/* When the screen is wider than 768px (Desktop/Tablets), snap things side-by-side */
 @media (min-width: 768px) {
   .flex-container {
     flex-direction: row; 
@@ -305,4 +183,5 @@ footer {
     gap: 4rem;
   }
 }
+
 
