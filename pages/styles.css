@@ -184,4 +184,30 @@ button[type="submit"]:hover {
   }
 }
 
+/* --- Fix for Social Media Icons --- */
+.social-links {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.social-links a {
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+  transform: scale(1.15) translateY(-3px); /* Makes them pop out and lift up on hover */
+}
+
+.social-links i {
+  font-family: "Font Awesome 6 Brands", "Font Awesome 6 Free", sans-serif !important;
+  font-weight: 400; /* Ensures the browser renders the brand style properly */
+}
+
+
 
