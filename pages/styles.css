@@ -206,7 +206,6 @@ button[type="submit"]:hover {
 
 .social-links i {
   font-family: "Font Awesome 6 Brands", "Font Awesome 6 Free", sans-serif !important;
-  font-weight: 400; /* Ensures the browser renders the brand style properly */
 }
 
 
