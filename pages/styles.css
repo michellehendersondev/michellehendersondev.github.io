@@ -15,9 +15,8 @@ body {
 
 /* --- 2. HEADERS --- */
 h1 {
-  background-color: #C5D3E8;
   text-align: center;
-  color: white;
+  color: #C5D3E8;
   font-family: sans-serif;
   padding: 15px;
   margin-bottom: 1.8rem;
